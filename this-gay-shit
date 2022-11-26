@@ -28,3 +28,32 @@ if this dont work use this
 $ cd Desktop git clone https://github.com/TadakaSuryaTeja/BroadcomInstaller2021.git
 $ cd BroadcomInstaller2021 chmod +x ./Broadcom.sh
 $ ./Broadcom.sh
+
+
+
+
+or this, this work for me
+
+sudo apt install build-essential
+$ sudo apt install bc
+$ sudo apt install linux-headers-`uname -r`
+$ sudo apt install git
+
+
+
+
+$ git clone https://github.com/aircrack-ng/rtl8812au.git
+
+$ cd rtl8812au
+$ make && sudo make install
+
+sudo apt install dkms git
+mkdir src
+cd src
+git clone https://github.com/morrownr/8814au.git
+cd 8814au
+sudo ./install-driver.sh
+
+
+
+
