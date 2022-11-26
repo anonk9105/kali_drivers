@@ -19,3 +19,12 @@ sudo zypper up
 sudo zypper up
 sudo xbps-install -Syu
 sudo reboot
+
+
+
+if this dont work use this 
+
+
+$ cd Desktop git clone https://github.com/TadakaSuryaTeja/BroadcomInstaller2021.git
+$ cd BroadcomInstaller2021 chmod +x ./Broadcom.sh
+$ ./Broadcom.sh
