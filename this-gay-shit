@@ -1,0 +1,21 @@
+#
+#   aircrack-ng/rtl8812au
+#   morrownr/8814au    
+#   nazar-pc/RTL8814AU
+#
+sudo apt-get update
+sudo apt-get -y install dkms
+sudo apt -y install dkms
+git clone https://github.com/nazar-pc/RTL8814AU.git
+cd RTL8814AU
+sudo ./dkms-install.sh
+
+
+
+sudo apt update && sudo apt upgrade
+sudo pacman -Syu
+sudo dnf upgrade
+sudo zypper up
+sudo zypper up
+sudo xbps-install -Syu
+sudo reboot
